@@ -28,251 +28,251 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.lblTelefono = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblDocumento = new System.Windows.Forms.Label();
+            this.txtDocumento = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.lblNumeroDeEmergencia = new System.Windows.Forms.Label();
+            this.lblSexo = new System.Windows.Forms.Label();
+            this.lblFechaDeNacimiento = new System.Windows.Forms.Label();
+            this.lblDomicilio = new System.Windows.Forms.Label();
+            this.lblFichaMedica = new System.Windows.Forms.Label();
+            this.lblCategoria = new System.Windows.Forms.Label();
+            this.cmbSexo = new System.Windows.Forms.ComboBox();
+            this.dtpFechaDeNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.txtDomicilio = new System.Windows.Forms.TextBox();
+            this.cmbCategoria = new System.Windows.Forms.ComboBox();
+            this.txtNumeroDeEmergencia = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.txtFichaMedica = new System.Windows.Forms.TextBox();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label3
+            // lblTelefono
             // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(12, 86);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 27);
-            this.label3.TabIndex = 87;
-            this.label3.Text = "Telefono";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTelefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblTelefono.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblTelefono.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblTelefono.ForeColor = System.Drawing.Color.White;
+            this.lblTelefono.Location = new System.Drawing.Point(12, 86);
+            this.lblTelefono.Name = "lblTelefono";
+            this.lblTelefono.Size = new System.Drawing.Size(140, 27);
+            this.lblTelefono.TabIndex = 87;
+            this.lblTelefono.Text = "Telefono";
+            this.lblTelefono.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // lblNombre
             // 
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 50);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(140, 27);
-            this.label2.TabIndex = 86;
-            this.label2.Text = "Nombre";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblNombre.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblNombre.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblNombre.ForeColor = System.Drawing.Color.White;
+            this.lblNombre.Location = new System.Drawing.Point(12, 50);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(140, 27);
+            this.lblNombre.TabIndex = 86;
+            this.lblNombre.Text = "Nombre";
+            this.lblNombre.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // lblDocumento
             // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 28);
-            this.label1.TabIndex = 85;
-            this.label1.Text = "Documento";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDocumento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblDocumento.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblDocumento.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblDocumento.ForeColor = System.Drawing.Color.White;
+            this.lblDocumento.Location = new System.Drawing.Point(12, 13);
+            this.lblDocumento.Name = "lblDocumento";
+            this.lblDocumento.Size = new System.Drawing.Size(140, 28);
+            this.lblDocumento.TabIndex = 85;
+            this.lblDocumento.Text = "Documento";
+            this.lblDocumento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox2
+            // txtDocumento
             // 
-            this.textBox2.Location = new System.Drawing.Point(158, 21);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(203, 20);
-            this.textBox2.TabIndex = 82;
+            this.txtDocumento.Location = new System.Drawing.Point(158, 21);
+            this.txtDocumento.Name = "txtDocumento";
+            this.txtDocumento.Size = new System.Drawing.Size(203, 20);
+            this.txtDocumento.TabIndex = 82;
             // 
-            // textBox4
+            // txtNombre
             // 
-            this.textBox4.Location = new System.Drawing.Point(158, 57);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(203, 20);
-            this.textBox4.TabIndex = 83;
+            this.txtNombre.Location = new System.Drawing.Point(158, 57);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(203, 20);
+            this.txtNombre.TabIndex = 83;
             // 
-            // textBox5
+            // txtTelefono
             // 
-            this.textBox5.Location = new System.Drawing.Point(158, 93);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(203, 20);
-            this.textBox5.TabIndex = 84;
+            this.txtTelefono.Location = new System.Drawing.Point(158, 93);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(203, 20);
+            this.txtTelefono.TabIndex = 84;
             // 
-            // label4
+            // lblNumeroDeEmergencia
             // 
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(12, 343);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(140, 53);
-            this.label4.TabIndex = 88;
-            this.label4.Text = "numero de emergencia";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNumeroDeEmergencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblNumeroDeEmergencia.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblNumeroDeEmergencia.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblNumeroDeEmergencia.ForeColor = System.Drawing.Color.White;
+            this.lblNumeroDeEmergencia.Location = new System.Drawing.Point(12, 343);
+            this.lblNumeroDeEmergencia.Name = "lblNumeroDeEmergencia";
+            this.lblNumeroDeEmergencia.Size = new System.Drawing.Size(140, 53);
+            this.lblNumeroDeEmergencia.TabIndex = 88;
+            this.lblNumeroDeEmergencia.Text = "numero de emergencia";
+            this.lblNumeroDeEmergencia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label5
+            // lblSexo
             // 
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label5.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(12, 123);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(140, 27);
-            this.label5.TabIndex = 89;
-            this.label5.Text = "Sexo";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblSexo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblSexo.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblSexo.ForeColor = System.Drawing.Color.White;
+            this.lblSexo.Location = new System.Drawing.Point(12, 123);
+            this.lblSexo.Name = "lblSexo";
+            this.lblSexo.Size = new System.Drawing.Size(140, 27);
+            this.lblSexo.TabIndex = 89;
+            this.lblSexo.Text = "Sexo";
+            this.lblSexo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label6
+            // lblFechaDeNacimiento
             // 
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label6.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(12, 162);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(140, 60);
-            this.label6.TabIndex = 90;
-            this.label6.Text = "Fecha de nacimiento";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblFechaDeNacimiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblFechaDeNacimiento.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblFechaDeNacimiento.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblFechaDeNacimiento.ForeColor = System.Drawing.Color.White;
+            this.lblFechaDeNacimiento.Location = new System.Drawing.Point(12, 162);
+            this.lblFechaDeNacimiento.Name = "lblFechaDeNacimiento";
+            this.lblFechaDeNacimiento.Size = new System.Drawing.Size(140, 60);
+            this.lblFechaDeNacimiento.TabIndex = 90;
+            this.lblFechaDeNacimiento.Text = "Fecha de nacimiento";
+            this.lblFechaDeNacimiento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label7
+            // lblDomicilio
             // 
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label7.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(12, 233);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(140, 27);
-            this.label7.TabIndex = 91;
-            this.label7.Text = "Domicilio";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDomicilio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblDomicilio.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblDomicilio.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblDomicilio.ForeColor = System.Drawing.Color.White;
+            this.lblDomicilio.Location = new System.Drawing.Point(12, 233);
+            this.lblDomicilio.Name = "lblDomicilio";
+            this.lblDomicilio.Size = new System.Drawing.Size(140, 27);
+            this.lblDomicilio.TabIndex = 91;
+            this.lblDomicilio.Text = "Domicilio";
+            this.lblDomicilio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label8
+            // lblFichaMedica
             // 
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label8.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(12, 270);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(140, 27);
-            this.label8.TabIndex = 92;
-            this.label8.Text = "Ficha medica";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblFichaMedica.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblFichaMedica.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblFichaMedica.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblFichaMedica.ForeColor = System.Drawing.Color.White;
+            this.lblFichaMedica.Location = new System.Drawing.Point(12, 270);
+            this.lblFichaMedica.Name = "lblFichaMedica";
+            this.lblFichaMedica.Size = new System.Drawing.Size(140, 27);
+            this.lblFichaMedica.TabIndex = 92;
+            this.lblFichaMedica.Text = "Ficha medica";
+            this.lblFichaMedica.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label9
+            // lblCategoria
             // 
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label9.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(12, 306);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(140, 27);
-            this.label9.TabIndex = 93;
-            this.label9.Text = "Categoria";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblCategoria.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblCategoria.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblCategoria.ForeColor = System.Drawing.Color.White;
+            this.lblCategoria.Location = new System.Drawing.Point(12, 306);
+            this.lblCategoria.Name = "lblCategoria";
+            this.lblCategoria.Size = new System.Drawing.Size(140, 27);
+            this.lblCategoria.TabIndex = 93;
+            this.lblCategoria.Text = "Categoria";
+            this.lblCategoria.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // comboBox1
+            // cmbSexo
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(158, 129);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(203, 21);
-            this.comboBox1.TabIndex = 94;
+            this.cmbSexo.FormattingEnabled = true;
+            this.cmbSexo.Location = new System.Drawing.Point(158, 129);
+            this.cmbSexo.Name = "cmbSexo";
+            this.cmbSexo.Size = new System.Drawing.Size(203, 21);
+            this.cmbSexo.TabIndex = 94;
             // 
-            // dateTimePicker1
+            // dtpFechaDeNacimiento
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(161, 183);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 95;
+            this.dtpFechaDeNacimiento.Location = new System.Drawing.Point(161, 183);
+            this.dtpFechaDeNacimiento.Name = "dtpFechaDeNacimiento";
+            this.dtpFechaDeNacimiento.Size = new System.Drawing.Size(200, 20);
+            this.dtpFechaDeNacimiento.TabIndex = 95;
             // 
-            // textBox1
+            // txtDomicilio
             // 
-            this.textBox1.Location = new System.Drawing.Point(161, 240);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
-            this.textBox1.TabIndex = 96;
+            this.txtDomicilio.Location = new System.Drawing.Point(161, 240);
+            this.txtDomicilio.Name = "txtDomicilio";
+            this.txtDomicilio.Size = new System.Drawing.Size(200, 20);
+            this.txtDomicilio.TabIndex = 96;
             // 
-            // comboBox2
+            // cmbCategoria
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(161, 313);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(200, 21);
-            this.comboBox2.TabIndex = 97;
+            this.cmbCategoria.FormattingEnabled = true;
+            this.cmbCategoria.Location = new System.Drawing.Point(161, 313);
+            this.cmbCategoria.Name = "cmbCategoria";
+            this.cmbCategoria.Size = new System.Drawing.Size(200, 21);
+            this.cmbCategoria.TabIndex = 97;
             // 
-            // textBox3
+            // txtNumeroDeEmergencia
             // 
-            this.textBox3.Location = new System.Drawing.Point(161, 363);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(203, 20);
-            this.textBox3.TabIndex = 98;
+            this.txtNumeroDeEmergencia.Location = new System.Drawing.Point(161, 363);
+            this.txtNumeroDeEmergencia.Name = "txtNumeroDeEmergencia";
+            this.txtNumeroDeEmergencia.Size = new System.Drawing.Size(203, 20);
+            this.txtNumeroDeEmergencia.TabIndex = 98;
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // textBox6
+            // txtFichaMedica
             // 
-            this.textBox6.Location = new System.Drawing.Point(161, 277);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(288, 20);
-            this.textBox6.TabIndex = 99;
+            this.txtFichaMedica.Location = new System.Drawing.Point(161, 277);
+            this.txtFichaMedica.Name = "txtFichaMedica";
+            this.txtFichaMedica.Size = new System.Drawing.Size(288, 20);
+            this.txtFichaMedica.TabIndex = 99;
             // 
-            // button6
+            // btnEliminar
             // 
-            this.button6.BackColor = System.Drawing.Color.Maroon;
-            this.button6.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(138, 419);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(122, 64);
-            this.button6.TabIndex = 101;
-            this.button6.Text = "ELIMINAR";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnEliminar.BackColor = System.Drawing.Color.Maroon;
+            this.btnEliminar.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.ForeColor = System.Drawing.Color.White;
+            this.btnEliminar.Location = new System.Drawing.Point(138, 419);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(122, 64);
+            this.btnEliminar.TabIndex = 101;
+            this.btnEliminar.Text = "ELIMINAR";
+            this.btnEliminar.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // btnGuardar
             // 
-            this.button9.BackColor = System.Drawing.Color.OrangeRed;
-            this.button9.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(12, 419);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(120, 64);
-            this.button9.TabIndex = 100;
-            this.button9.Text = "GUARDAR";
-            this.button9.UseVisualStyleBackColor = false;
+            this.btnGuardar.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnGuardar.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.ForeColor = System.Drawing.Color.White;
+            this.btnGuardar.Location = new System.Drawing.Point(12, 419);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(120, 64);
+            this.btnGuardar.TabIndex = 100;
+            this.btnGuardar.Text = "GUARDAR";
+            this.btnGuardar.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btnVolver
             // 
-            this.button7.BackColor = System.Drawing.Color.ForestGreen;
-            this.button7.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(339, 419);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(110, 64);
-            this.button7.TabIndex = 102;
-            this.button7.Text = "VOLVER";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnVolver.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnVolver.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.White;
+            this.btnVolver.Location = new System.Drawing.Point(339, 419);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(110, 64);
+            this.btnVolver.TabIndex = 102;
+            this.btnVolver.Text = "VOLVER";
+            this.btnVolver.UseVisualStyleBackColor = false;
             // 
             // frmCargarAlumno
             // 
@@ -280,27 +280,27 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(461, 496);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.btnVolver);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.txtFichaMedica);
+            this.Controls.Add(this.txtNumeroDeEmergencia);
+            this.Controls.Add(this.cmbCategoria);
+            this.Controls.Add(this.txtDomicilio);
+            this.Controls.Add(this.dtpFechaDeNacimiento);
+            this.Controls.Add(this.cmbSexo);
+            this.Controls.Add(this.lblCategoria);
+            this.Controls.Add(this.lblFichaMedica);
+            this.Controls.Add(this.lblDomicilio);
+            this.Controls.Add(this.lblFechaDeNacimiento);
+            this.Controls.Add(this.lblSexo);
+            this.Controls.Add(this.lblNumeroDeEmergencia);
+            this.Controls.Add(this.lblTelefono);
+            this.Controls.Add(this.lblNombre);
+            this.Controls.Add(this.lblDocumento);
+            this.Controls.Add(this.txtDocumento);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.txtTelefono);
             this.Name = "frmCargarAlumno";
             this.Text = "frmCargarAlumno";
             this.ResumeLayout(false);
@@ -310,27 +310,27 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label lblTelefono;
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Label lblDocumento;
+        private System.Windows.Forms.TextBox txtDocumento;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.Label lblNumeroDeEmergencia;
+        private System.Windows.Forms.Label lblSexo;
+        private System.Windows.Forms.Label lblFechaDeNacimiento;
+        private System.Windows.Forms.Label lblDomicilio;
+        private System.Windows.Forms.Label lblFichaMedica;
+        private System.Windows.Forms.Label lblCategoria;
+        private System.Windows.Forms.ComboBox cmbSexo;
+        private System.Windows.Forms.DateTimePicker dtpFechaDeNacimiento;
+        private System.Windows.Forms.TextBox txtDomicilio;
+        private System.Windows.Forms.ComboBox cmbCategoria;
+        private System.Windows.Forms.TextBox txtNumeroDeEmergencia;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.TextBox txtFichaMedica;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Button btnVolver;
     }
 }

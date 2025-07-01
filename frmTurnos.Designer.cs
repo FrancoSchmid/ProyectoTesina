@@ -80,8 +80,8 @@
             this.lblCanchaB = new System.Windows.Forms.Label();
             this.lblCanchaD = new System.Windows.Forms.Label();
             this.lblCanchaC = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.lblTurnos = new System.Windows.Forms.Label();
+            this.dtpTurnos = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // btnA10
@@ -715,26 +715,26 @@
             this.lblCanchaC.TabIndex = 50;
             this.lblCanchaC.Text = "Cancha C";
             // 
-            // label1
+            // lblTurnos
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(2, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 34);
-            this.label1.TabIndex = 52;
-            this.label1.Text = "Turnos";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblTurnos.AutoSize = true;
+            this.lblTurnos.BackColor = System.Drawing.Color.Transparent;
+            this.lblTurnos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.lblTurnos.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTurnos.ForeColor = System.Drawing.Color.White;
+            this.lblTurnos.Location = new System.Drawing.Point(2, 21);
+            this.lblTurnos.Name = "lblTurnos";
+            this.lblTurnos.Size = new System.Drawing.Size(105, 34);
+            this.lblTurnos.TabIndex = 52;
+            this.lblTurnos.Text = "Turnos";
+            this.lblTurnos.Click += new System.EventHandler(this.label1_Click);
             // 
-            // dateTimePicker1
+            // dtpTurnos
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(107, 31);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(199, 20);
-            this.dateTimePicker1.TabIndex = 53;
+            this.dtpTurnos.Location = new System.Drawing.Point(107, 31);
+            this.dtpTurnos.Name = "dtpTurnos";
+            this.dtpTurnos.Size = new System.Drawing.Size(199, 20);
+            this.dtpTurnos.TabIndex = 53;
             // 
             // frmTurnos
             // 
@@ -743,8 +743,8 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(74)))), ((int)(((byte)(74)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1138, 508);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.dtpTurnos);
+            this.Controls.Add(this.lblTurnos);
             this.Controls.Add(this.lblCanchaD);
             this.Controls.Add(this.lblCanchaC);
             this.Controls.Add(this.lblCanchaB);
@@ -860,8 +860,8 @@
         private System.Windows.Forms.Label lblCanchaB;
         private System.Windows.Forms.Label lblCanchaD;
         private System.Windows.Forms.Label lblCanchaC;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label lblTurnos;
+        private System.Windows.Forms.DateTimePicker dtpTurnos;
     }
 }
 
