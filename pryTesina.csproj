@@ -47,8 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsAlumno.cs" />
     <Compile Include="clsClase.cs" />
+    <Compile Include="clsCliente.cs" />
     <Compile Include="clsPersona.cs" />
+    <Compile Include="clsProfesor.cs" />
     <Compile Include="clsTurno.cs" />
     <Compile Include="frmBasedeDatos.cs">
       <SubType>Form</SubType>
@@ -56,11 +59,17 @@
     <Compile Include="frmBasedeDatos.Designer.cs">
       <DependentUpon>frmBasedeDatos.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCargarTurno.cs">
+    <Compile Include="frmCargarAlumno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCargarTurno.Designer.cs">
-      <DependentUpon>frmCargarTurno.cs</DependentUpon>
+    <Compile Include="frmCargarAlumno.Designer.cs">
+      <DependentUpon>frmCargarAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCargarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCargarCliente.Designer.cs">
+      <DependentUpon>frmCargarCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="frmClases.cs">
       <SubType>Form</SubType>
@@ -86,8 +95,11 @@
     <EmbeddedResource Include="frmBasedeDatos.resx">
       <DependentUpon>frmBasedeDatos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCargarTurno.resx">
-      <DependentUpon>frmCargarTurno.cs</DependentUpon>
+    <EmbeddedResource Include="frmCargarAlumno.resx">
+      <DependentUpon>frmCargarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCargarCliente.resx">
+      <DependentUpon>frmCargarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmClases.resx">
       <DependentUpon>frmClases.cs</DependentUpon>

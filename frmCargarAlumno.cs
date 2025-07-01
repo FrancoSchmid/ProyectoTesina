@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace pryTesina
 {
-    public partial class frmCargarTurno : Form
+    public partial class frmCargarAlumno : Form
     {
-        public frmCargarTurno()
+        public frmCargarAlumno()
         {
             InitializeComponent();
         }

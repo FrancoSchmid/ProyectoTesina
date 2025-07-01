@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace pryTesina
 {
-    public partial class frmClases : Form
+    public partial class frmCargarCliente : Form
     {
-        public frmClases()
+        public frmCargarCliente()
         {
             InitializeComponent();
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

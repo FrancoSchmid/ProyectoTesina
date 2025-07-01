@@ -666,8 +666,8 @@
             this.lblCanchaA.BackColor = System.Drawing.Color.Transparent;
             this.lblCanchaA.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblCanchaA.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCanchaA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblCanchaA.Location = new System.Drawing.Point(3, 101);
+            this.lblCanchaA.ForeColor = System.Drawing.Color.White;
+            this.lblCanchaA.Location = new System.Drawing.Point(1, 101);
             this.lblCanchaA.Name = "lblCanchaA";
             this.lblCanchaA.Size = new System.Drawing.Size(100, 25);
             this.lblCanchaA.TabIndex = 48;
@@ -680,7 +680,7 @@
             this.lblCanchaB.BackColor = System.Drawing.Color.Transparent;
             this.lblCanchaB.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblCanchaB.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCanchaB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblCanchaB.ForeColor = System.Drawing.Color.White;
             this.lblCanchaB.Location = new System.Drawing.Point(2, 210);
             this.lblCanchaB.Name = "lblCanchaB";
             this.lblCanchaB.Size = new System.Drawing.Size(99, 25);
@@ -694,8 +694,8 @@
             this.lblCanchaD.BackColor = System.Drawing.Color.Transparent;
             this.lblCanchaD.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblCanchaD.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCanchaD.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblCanchaD.Location = new System.Drawing.Point(3, 431);
+            this.lblCanchaD.ForeColor = System.Drawing.Color.White;
+            this.lblCanchaD.Location = new System.Drawing.Point(1, 431);
             this.lblCanchaD.Name = "lblCanchaD";
             this.lblCanchaD.Size = new System.Drawing.Size(100, 25);
             this.lblCanchaD.TabIndex = 51;
@@ -708,7 +708,7 @@
             this.lblCanchaC.BackColor = System.Drawing.Color.Transparent;
             this.lblCanchaC.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.lblCanchaC.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCanchaC.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblCanchaC.ForeColor = System.Drawing.Color.White;
             this.lblCanchaC.Location = new System.Drawing.Point(3, 322);
             this.lblCanchaC.Name = "lblCanchaC";
             this.lblCanchaC.Size = new System.Drawing.Size(98, 25);
@@ -721,7 +721,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label1.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(2, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(105, 34);
