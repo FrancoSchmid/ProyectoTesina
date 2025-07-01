@@ -6,22 +6,32 @@ using System.Threading.Tasks;
 
 namespace pryTesina
 {
-    public class clsPersona: Ipersona
+    namespace pryTesina
     {
-        private String nombre;
-        private Int16 numero;
-
-        public String Nombre
+        public class clsPersona
         {
-            get { return nombre; }
-            set { nombre = value; }
-        }
+            private int documento;
+            private string nombre;
+            private int numero;
 
+            public int Documento
+            {
+                get { return documento; }
+                set { documento = value; }
+            }
 
-        public Int16 Numero
-        {
-            get { return numero; }
-            set { numero = value; }
+            public string Nombre
+            {
+                get { return nombre; }
+                set { nombre = value; }
+            }
+
+            public int Numero
+            {
+                get { return numero; }
+                set { numero = value; }
+            }
         }
     }
+
 }

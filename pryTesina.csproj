@@ -48,6 +48,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsAlumno.cs" />
+    <Compile Include="clsArchivo.cs" />
+    <Compile Include="clsBD.cs" />
     <Compile Include="clsClase.cs" />
     <Compile Include="clsCliente.cs" />
     <Compile Include="clsPersona.cs" />
@@ -77,6 +79,18 @@
     <Compile Include="frmClases.Designer.cs">
       <DependentUpon>frmClases.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDesarrolladores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDesarrolladores.Designer.cs">
+      <DependentUpon>frmDesarrolladores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIngreso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngreso.Designer.cs">
+      <DependentUpon>frmIngreso.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,7 +103,6 @@
     <Compile Include="frmTurnos.Designer.cs">
       <DependentUpon>frmTurnos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ipersona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmBasedeDatos.resx">
@@ -103,6 +116,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmClases.resx">
       <DependentUpon>frmClases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDesarrolladores.resx">
+      <DependentUpon>frmDesarrolladores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIngreso.resx">
+      <DependentUpon>frmIngreso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
