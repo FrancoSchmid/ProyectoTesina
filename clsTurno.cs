@@ -17,6 +17,14 @@ namespace pryTesina
         public DateTime Fechahora { get => fechahora; set => fechahora = value; }
         public string Cancha { get => cancha; set => cancha = value; }
 
+        public string CodigoTurno
+        {
+            get
+            {
+                return $"{Nombre}_{Fechahora:yyyyMMdd_HHmm}";
+            }
+        }
+
         public clsTurno Agregar(TextBox nombre, DateTime nuevoTurno, String cancha) 
         {
             clsTurno nuevo = new clsTurno();

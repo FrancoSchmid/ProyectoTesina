@@ -672,7 +672,6 @@
             this.lblCanchaA.Size = new System.Drawing.Size(100, 25);
             this.lblCanchaA.TabIndex = 48;
             this.lblCanchaA.Text = "Cancha A";
-            this.lblCanchaA.Click += new System.EventHandler(this.lblCanchaA_Click);
             // 
             // lblCanchaB
             // 
@@ -686,7 +685,6 @@
             this.lblCanchaB.Size = new System.Drawing.Size(99, 25);
             this.lblCanchaB.TabIndex = 49;
             this.lblCanchaB.Text = "Cancha B";
-            this.lblCanchaB.Click += new System.EventHandler(this.lblCanchaB_Click);
             // 
             // lblCanchaD
             // 
@@ -700,7 +698,6 @@
             this.lblCanchaD.Size = new System.Drawing.Size(100, 25);
             this.lblCanchaD.TabIndex = 51;
             this.lblCanchaD.Text = "Cancha D";
-            this.lblCanchaD.Click += new System.EventHandler(this.lblCanchaD_Click);
             // 
             // lblCanchaC
             // 
@@ -727,7 +724,6 @@
             this.lblTurnos.Size = new System.Drawing.Size(105, 34);
             this.lblTurnos.TabIndex = 52;
             this.lblTurnos.Text = "Turnos";
-            this.lblTurnos.Click += new System.EventHandler(this.label1_Click);
             // 
             // dtpTurnos
             // 
@@ -800,7 +796,6 @@
             this.ForeColor = System.Drawing.Color.Black;
             this.Name = "frmTurnos";
             this.Text = "Turnos";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

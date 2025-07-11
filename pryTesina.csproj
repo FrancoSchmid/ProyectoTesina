@@ -50,6 +50,7 @@
     <Compile Include="clsAlumno.cs" />
     <Compile Include="clsArchivo.cs" />
     <Compile Include="clsBD.cs" />
+    <Compile Include="clsBDMock.cs" />
     <Compile Include="clsClase.cs" />
     <Compile Include="clsCliente.cs" />
     <Compile Include="clsPersona.cs" />

@@ -124,6 +124,7 @@
             this.btnGuardar.TabIndex = 69;
             this.btnGuardar.Text = "GUARDAR";
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnEliminar
             // 
@@ -210,7 +211,6 @@
             this.rdbClase.TabStop = true;
             this.rdbClase.Text = "Clase";
             this.rdbClase.UseVisualStyleBackColor = true;
-            this.rdbClase.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // pnlPartido
             // 
