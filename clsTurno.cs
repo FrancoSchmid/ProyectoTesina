@@ -12,6 +12,8 @@ namespace pryTesina
         private String nombre;
         private DateTime fechahora;
         private String cancha;
+        public string Tipo { get; set; }
+
 
         public string Nombre { get => nombre; set => nombre = value; }
         public DateTime Fechahora { get => fechahora; set => fechahora = value; }

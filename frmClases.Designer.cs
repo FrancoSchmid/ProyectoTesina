@@ -75,6 +75,7 @@
             this.btnBuscarCliente.TabIndex = 48;
             this.btnBuscarCliente.Text = "BUSCAR CLIENTE";
             this.btnBuscarCliente.UseVisualStyleBackColor = false;
+            this.btnBuscarCliente.Click += new System.EventHandler(this.btnBuscarCliente_Click);
             // 
             // textBox1
             // 
@@ -187,6 +188,7 @@
             this.btnBuscarAlumno.TabIndex = 79;
             this.btnBuscarAlumno.Text = "BUSCAR ALUMNO";
             this.btnBuscarAlumno.UseVisualStyleBackColor = false;
+            this.btnBuscarAlumno.Click += new System.EventHandler(this.btnBuscarAlumno_Click);
             // 
             // rdbPartido
             // 

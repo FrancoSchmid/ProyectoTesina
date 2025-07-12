@@ -20,23 +20,43 @@ namespace pryTesina
 
         private void CrearTurnoDesdeControles()
         {
-            // Ejemplo básico, adaptalo según tus controles y modelo clsTurno
-
-            // Supongamos que recibiste cancha y fecha/hora por parámetro o control
-            string cancha = /* si tenés un control o variable que lo indique */;
-            DateTime fechaHora = /* fecha y hora seleccionada o pasada */;
-
             turnoActual = new clsTurno
             {
-                Nombre = cancha,
-                Fechahora = fechaHora,
-                // Asignar más campos si clsTurno los tiene, como clientes, alumnos, etc.
+                Nombre = turnoActual.Nombre, // viene del constructor
+                Fechahora = turnoActual.Fechahora,       // viene del constructor
+                Tipo = rdbClase.Checked ? "Clase" : "Partido"
             };
 
-            // Si hay más datos, agregalos acá, por ejemplo:
-            // turnoActual.Cliente = ...
-            // turnoActual.Alumnos = ...
+            if (rdbClase.Checked)
+            {
+                turnoActual.Categoria = cmbCategoria.SelectedItem?.ToString();
+                turnoActual.Profesor = cmbProfesor.SelectedItem?.ToString();
+
+                turnoActual.Alumnos = new List<string>();
+                foreach (DataGridViewRow fila in dgvListaDeTurnos.Rows)
+                {
+                    if (!fila.IsNewRow)
+                    {
+                        for (int i = 2; i <= 5; i++) // Columnas Alumno1 a Alumno4
+                        {
+                            string nombre = fila.Cells[i].Value?.ToString();
+                            if (!string.IsNullOrWhiteSpace(nombre))
+                                turnoActual.Alumnos.Add(nombre);
+                        }
+                    }
+                }
+            }
+            else // Partido
+            {
+                turnoActual.Cliente = new clsCliente
+                {
+                    DNI = int.TryParse(txtDocumento.Text, out int doc) ? doc : 0,
+                    Nombre = txtNombre.Text.Trim(),
+                    Telefono = int.TryParse(txtTelefono.Text, out int tel) ? tel : 0
+                };
+            }
         }
+
 
         public frmTurnosClases()
         {
@@ -66,6 +86,73 @@ namespace pryTesina
             }
         }
 
+        private void btnBuscarCliente_Click(object sender, EventArgs e)
+        {
+            int documento;
+            if (!int.TryParse(txtDocumento.Text, out documento))
+            {
+                MessageBox.Show("Ingresá un documento válido.");
+                return;
+            }
 
+            clsCliente cliente = bd.BuscarClientePorDocumento(documento);
+
+            if (cliente != null)
+            {
+                txtNombre.Text = cliente.Nombre;
+                txtTelefono.Text = cliente.Telefono.ToString();
+                MessageBox.Show("Cliente encontrado.");
+            }
+            else
+            {
+                DialogResult r = MessageBox.Show("Cliente no encontrado. ¿Deseás agregarlo?", "Nuevo Cliente", MessageBoxButtons.YesNo);
+                if (r == DialogResult.Yes)
+                {
+                    cliente = new clsCliente
+                    {
+                        DNI = documento,
+                        Nombre = txtNombre.Text,
+                        Telefono = int.TryParse(txtTelefono.Text, out int tel) ? tel : 0
+                    };
+
+                    bd.AgregarCliente(cliente);
+                    MessageBox.Show("Cliente agregado.");
+                }
+            }
+        }
+
+        private void btnBuscarAlumno_Click(object sender, EventArgs e)
+        {
+            int documento;
+            if (!int.TryParse(txtAlumno.Text, out documento))
+            {
+                MessageBox.Show("Ingresá un documento válido de alumno.");
+                return;
+            }
+
+            clsAlumno alumno = bd.BuscarAlumnoPorDocumento(documento);
+
+            if (alumno != null)
+            {
+                MessageBox.Show($"Alumno encontrado: {alumno.Nombre}");
+            }
+            else
+            {
+                DialogResult r = MessageBox.Show("Alumno no encontrado. ¿Deseás agregarlo?", "Nuevo Alumno", MessageBoxButtons.YesNo);
+                if (r == DialogResult.Yes)
+                {
+                    alumno = new clsAlumno
+                    {
+                        Documento = documento,
+                        Nombre = "Alumno Nuevo",
+                        Numero = 0,
+                        // Podés agregar más datos si los tenés
+                    };
+
+                    bd.AgregarAlumno(alumno);
+                    MessageBox.Show("Alumno agregado.");
+                }
+            }
+        }
     }
 }
